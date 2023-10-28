@@ -22,6 +22,6 @@ ssh_config="Host github.com
     User git
     IdentityFile $ssh_key_path"
 
-echo "$ssh_config" > ~/.ssh/config
+echo "$ssh_config" > "$HOME/.ssh/config"
 
 echo "SSH key generation and setup for GitHub completed!"
