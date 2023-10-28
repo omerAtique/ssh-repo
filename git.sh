@@ -16,7 +16,7 @@ git add .
 git commit -m "$commit_message"
 
 
-git remote add origin "git@github.com:$github_username/$github_repo.git"
+git remote add origin "git@github.com:omerAtique/ssh-repo.git"
 
 
 git push -u origin main
